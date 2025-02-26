@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVS Team - Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Project Updates</h1>
+        <p>Welcome, <span id="displayUserName"></span>!</p>
+        <button onclick="logoutUser()" class="logout-btn">Logout</button>
+    </header>
+
+    <section id="updatesSection">
+        <h2>Your Updates</h2>
+        <textarea id="updateInput" placeholder="Write your update here..." rows="4" cols="50"></textarea>
+        <button onclick="saveUpdate()">Submit</button>
+
+        <h3>Your Updates:</h3>
+        <ul id="updateList"></ul>
+    </section>
+
+    <footer>
+        <p>© 2025 AVS Team. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
